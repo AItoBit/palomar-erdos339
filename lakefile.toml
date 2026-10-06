@@ -1,0 +1,15 @@
+name = "erdos339"
+version = "0.1.0"
+defaultTargets = ["Challenge", "Solution"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "331d5244f0d3aad530d9ab00ded135b4c7691502"
+
+[[lean_lib]]
+name = "Challenge"
+
+[[lean_lib]]
+name = "Solution"

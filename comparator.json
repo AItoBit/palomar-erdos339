@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Erdos339.erdos_339",
+    "Erdos339.erdos_339_exact",
+    "Erdos339.erdos_339_upper",
+    "Erdos339.erdos_339_upper_exact"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}
